@@ -1,6 +1,11 @@
-#### USAGE
 
-##Rscript tree_rename.R tree_file_path label_data_path output_file_path
+#PURPOSE: This script will rename tree tips based on a provided .csv file ith two columns 1) old lables, 2) new labels.
+
+
+#USAGE:
+#Rscript tree_rename.R tree_file_path label_data_path output_file_path
+
+#Argument details:
 #where tree_file_path is your treefile, label_data_path is a csv file with two columns 1) old lables, 2) new labels, output_file_path is the output file name
 # if you want labels to remain the same do not include data for these in the .csv file
 
